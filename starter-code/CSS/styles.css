@@ -17,8 +17,10 @@
 :root {
     --color-cyan-600: hsl(192, 37%, 48%);
     --color-cyan-300: hsl(192, 90%, 77%);
+    --color-cyan-700: hsl(192, 42%, 40%);
     --color-purple-600: hsl(268, 34%, 53%);
     --color-purple-300: hsl(268, 100%, 86%);
+    --color-purple-700: hsl(268, 38%, 45%);
     --color-slate-900: hsl(240, 21%, 20%);
     --color-slate-600: hsl(240, 10%, 57%);
     --color-slate-300: hsl(240, 18%, 85%);
@@ -204,6 +206,7 @@ h2 {
     border-radius: 999px;
     line-height: 1.2;
     min-height: 2.5rem;
+    transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
 .btn--primary {
@@ -220,6 +223,27 @@ h2 {
 
 .btn--accent2 {
     color: var(--color-purple-300);
+}
+
+.btn--primary:hover,
+.btn--primary:focus-visible {
+    background-color: var(--color-cyan-700);
+    transform: translateY(2px);
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus-visible {
+    background-color: var(--color-purple-700);
+    transform: translateY(2px);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 
@@ -304,7 +328,6 @@ h2 {
     color: var(--color-white);
     padding: 4rem 4rem 5rem 4rem;
     margin-top: -1.75rem;
-
 }
 
 .cta-inner {
@@ -353,7 +376,6 @@ h2 {
         flex-wrap: wrap;
     }
 
-
     .cta-inner {
         display: flex;
         flex-direction: row;
@@ -361,13 +383,4 @@ h2 {
         width: min(100%, 65rem);
         margin-inline: auto;
         text-align: center;
-
-}
-
-}
-
-
-
-
-    
 }
