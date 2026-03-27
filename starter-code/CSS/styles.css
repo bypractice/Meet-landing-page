@@ -47,8 +47,8 @@
     --button-text-line-height: 1.625rem;
 
     --space-page-top: clamp(3rem, 6vw, 5rem);
-    --space-section: clamp(4rem, 8vw, 7rem);
-    --space-stack-lg: clamp(2rem, 5vw, 4rem);
+    --space-section: clamp(2rem, 4vw, 3rem);
+    --space-stack-lg: clamp(2rem, 4vw, 3rem);
     --space-stack-md: clamp(1rem, 3vw, 1.75rem);
 }
 
@@ -165,7 +165,7 @@ main {
 }
 
 h1 {
-    font-size: 3.1rem;
+    font-size: 3.5rem;
     color: var(--color-slate-900);
     line-height: 1.1;
     font-weight: 900;
@@ -205,7 +205,7 @@ h2 {
     border: none;
     border-radius: 999px;
     line-height: 1.2;
-    min-height: 2.5rem;
+    min-height: 1.5rem;
     transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
@@ -327,7 +327,7 @@ h2 {
     background-repeat: no-repeat;
     color: var(--color-white);
     padding: 4rem 4rem 5rem 4rem;
-    margin-top: -1.75rem;
+    margin-top: -4.75rem;
 }
 
 .cta-inner {
