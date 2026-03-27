@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot Meet landing page.png)
+![./Screenshot Meet landing page.png](./Screenshot Meet landing page.png)
 
 ### Links
 
