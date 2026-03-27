@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bypractice/Meet-landing-page.git](https://github.com/bypractice/Meet-landing-page)
-- Live Site URL: [Add live site URL here](https://bypractice.github.io/Meet-landing-page/)
+- Live Site URL: [https://bypractice.github.io/Meet-landing-page/](https://bypractice.github.io/Meet-landing-page/)
 
 ### Built with
 
